@@ -1,0 +1,84 @@
+* {
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    margin-top: 50px;
+}
+
+header {
+    background-color: #D65A31;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    font-size: 2rem;
+    color: #F5F5DC;
+}  
+
+#sorting-pannel {
+    width: 100%;
+    background-color: #393E46;
+    height: 670px;
+}
+
+#sorting-container {
+    height: 500px;
+    margin-left: 450px;
+    /* margin-bottom: 200px; */
+    width: auto;
+    display:flex;
+    align-items:flex-end;
+}
+
+.bar {
+    width:5px;
+    background-color: #F5F5DC;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #222831;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    height: 20%;
+    color: #F5F5DC;
+}
+
+
+label {
+    font-size: 1.5rem;
+    margin-right: 6px;
+}
+
+select {
+    padding: 10px 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5%;
+    height: 40px;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 5%;
+    margin-left: 2px;
+    cursor: pointer;
+    height: 40px;
+    color: #F5F5DC;
+}
+
+.sortbtn {
+    background-color: #218838;
+}
+.shufflebtn {
+    background-color: #C82333;
+}
